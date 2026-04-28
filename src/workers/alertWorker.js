@@ -3,10 +3,11 @@ const { query } = require('../config/database');
 const queue = require('../config/queue');
 const logger = require('../utils/logger');
 
-const alertWorker = new Worker('alerts', async (job) => {
-  const { vehicle_id, type, message, severity } = job.data;
+const createAlertWorker = (redisConnection) => {
+  const alertWorker = new Worker('alerts', async (job) => {
+    const { vehicle_id, type, message, severity } = job.data;
 
-  try {
+    try {
     logger.info('Creating alert', { vehicle_id, type, severity });
 
     // Store alert in database
@@ -41,6 +42,8 @@ const alertWorker = new Worker('alerts', async (job) => {
     logger.error('Error creating alert', { error: error.message, vehicle_id });
     throw error;
   }
+}, {
+  connection: redisConnection
 });
 
 alertWorker.on('completed', (job) => {
@@ -51,4 +54,7 @@ alertWorker.on('failed', (job, err) => {
   logger.error('Alert job failed', { jobId: job.id, error: err.message });
 });
 
-module.exports = alertWorker;
+  return alertWorker;
+};
+
+module.exports = createAlertWorker;

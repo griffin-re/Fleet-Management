@@ -3,24 +3,25 @@ const nodemailer = require('nodemailer');
 const logger = require('../utils/logger');
 const config = require('../config');
 
-// Create transporter if SMTP is configured
-let transporter = null;
-if (config.SMTP_HOST && config.SMTP_USER) {
-  transporter = nodemailer.createTransporter({
-    host: config.SMTP_HOST,
-    port: config.SMTP_PORT,
-    secure: config.SMTP_PORT === 465,
-    auth: {
-      user: config.SMTP_USER,
-      pass: config.SMTP_PASSWORD,
-    },
-  });
-}
+const createNotificationWorker = (redisConnection) => {
+  // Create transporter if SMTP is configured
+  let transporter = null;
+  if (config.SMTP_HOST && config.SMTP_USER) {
+    transporter = nodemailer.createTransport({
+      host: config.SMTP_HOST,
+      port: config.SMTP_PORT,
+      secure: config.SMTP_PORT === 465,
+      auth: {
+        user: config.SMTP_USER,
+        pass: config.SMTP_PASSWORD,
+      },
+    });
+  }
 
-const notificationWorker = new Worker('notifications', async (job) => {
-  const { vehicle_id, type, message, severity } = job.data;
+  const notificationWorker = new Worker('notifications', async (job) => {
+    const { vehicle_id, type, message, severity } = job.data;
 
-  try {
+    try {
     logger.info('Sending notification', { vehicle_id, type, severity });
 
     if (transporter) {
@@ -45,6 +46,8 @@ const notificationWorker = new Worker('notifications', async (job) => {
     logger.error('Error sending notification', { error: error.message, vehicle_id });
     throw error;
   }
+}, {
+  connection: redisConnection
 });
 
 notificationWorker.on('completed', (job) => {
@@ -55,4 +58,7 @@ notificationWorker.on('failed', (job, err) => {
   logger.error('Notification job failed', { jobId: job.id, error: err.message });
 });
 
-module.exports = notificationWorker;
+  return notificationWorker;
+};
+
+module.exports = createNotificationWorker;

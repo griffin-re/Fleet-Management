@@ -4,12 +4,12 @@ const queue = require('../config/queue');
 const { haversineDistance } = require('../utils/haversine');
 const logger = require('../utils/logger');
 const config = require('../config');
-const redis = require('../config/redis');
 
-const gpsWorker = new Worker('gps', async (job) => {
-  const { vehicle_id, lat, lng, speed, timestamp } = job.data;
+const createGpsWorker = (redisConnection) => {
+  const gpsWorker = new Worker('gps', async (job) => {
+    const { vehicle_id, lat, lng, speed, timestamp } = job.data;
 
-  try {
+    try {
     logger.info('Processing GPS data', { vehicle_id, lat, lng, speed });
 
     // Store raw GPS data
@@ -72,7 +72,7 @@ const gpsWorker = new Worker('gps', async (job) => {
     throw error;
   }
 }, {
-  connection: redis
+  connection: redisConnection
 });
 
 gpsWorker.on('completed', (job) => {
@@ -83,6 +83,9 @@ gpsWorker.on('failed', (job, err) => {
   logger.error('GPS job failed', { jobId: job.id, error: err.message });
 });
 
+  return gpsWorker;
+};
+
 // Simplified distance to route (distance to line segment)
 function calculateDistanceToRoute(lat, lng, startLat, startLng, endLat, endLng) {
   // For simplicity, calculate distance to the midpoint of the route
@@ -91,4 +94,4 @@ function calculateDistanceToRoute(lat, lng, startLat, startLng, endLat, endLng) 
   return haversineDistance(lat, lng, midLat, midLng);
 }
 
-module.exports = gpsWorker;
+module.exports = createGpsWorker;

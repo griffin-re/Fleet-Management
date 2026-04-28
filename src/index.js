@@ -52,9 +52,14 @@ async function initializeWorkers(redisConnection) {
 
     const queues = initializeQueues(redisConnection);
 
-    require('./workers/gpsWorker');
-    require('./workers/alertWorker');
-    require('./workers/notificationWorker');
+    const createGpsWorker = require('./workers/gpsWorker');
+    const createAlertWorker = require('./workers/alertWorker');
+    const createNotificationWorker = require('./workers/notificationWorker');
+
+    createGpsWorker(redisConnection);
+    createAlertWorker(redisConnection);
+    createNotificationWorker(redisConnection);
+
     logger.info('Workers initialized successfully');
   } catch (error) {
     logger.error('Failed to initialize workers', { error: error.message });

@@ -1,4 +1,4 @@
-const { Queue } = require('bullmq');
+const { Queue, QueueScheduler } = require('bullmq');
 const redis = require('./redis');
 require('dotenv').config();
 
@@ -64,9 +64,14 @@ const initializeQueues = (redisConnection) => {
   wireQueueErrorHandlers(alertQueue, 'Alert Queue');
   wireQueueErrorHandlers(notificationQueue, 'Notification Queue');
 
+  // Explicitly create QueueScheduler instances with connections to avoid deprecation warnings
+  const gpsScheduler = new QueueScheduler('gps', { connection: redisConnection });
+  const alertScheduler = new QueueScheduler('alerts', { connection: redisConnection });
+  const notificationScheduler = new QueueScheduler('notifications', { connection: redisConnection });
+
   console.info('✅ Queues initialized successfully');
 
-  return { gpsQueue, alertQueue, notificationQueue };
+  return { gpsQueue, alertQueue, notificationQueue, gpsScheduler, alertScheduler, notificationScheduler };
 };
 
 module.exports = { initializeQueues, get gpsQueue() { return gpsQueue; }, get alertQueue() { return alertQueue; }, get notificationQueue() { return notificationQueue; } };
