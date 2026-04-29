@@ -1,11 +1,14 @@
 {
   "name": "fleet-management",
   "version": "1.0.0",
-  "description": "A fleet management system",
-  "main": "src/index.js",
+  "description": "Fleet & Convoy Management System",
+  "main": "backend/src/app.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon src/index.js",
+    "start": "node backend/src/app.js",
+    "dev": "nodemon backend/src/app.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
     "test": "bash ./test-api.sh"
   },
   "dependencies": {
