@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { useAuthStore } from '../store';
 import { authService } from '../services/api';
-import { Button, Input, Alert, Spinner } from '../components/UI';
+import { Button, Input, Alert, Spinner } from '../components/Layout';
 import { Lock, Mail } from 'lucide-react';
 import toast from 'react-hot-toast';
 
