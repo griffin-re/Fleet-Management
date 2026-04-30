@@ -37,11 +37,11 @@ body {
 }
 
 .font-chakra {
-  @apply font-chakra;
+  
 }
 
 .font-mono {
-  @apply font-mono;
+  
 }
 
 /* Tactical status indicators */
