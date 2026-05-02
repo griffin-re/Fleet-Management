@@ -1,0 +1,36 @@
+{
+  "name": "fleet-management",
+  "version": "1.0.0",
+  "description": "Fleet & Convoy Management System",
+  "main": "backend/src/app.js",
+  "scripts": {
+    "start": "node backend/src/app.js",
+    "dev": "nodemon backend/src/app.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:frontend\"",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "bash ./test-api.sh"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^6.0.0",
+    "bullmq": "^1.62.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "ioredis": "^4.27.6",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.7.1",
+    "winston": "^3.8.2",
+    "ws": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "griffodroid",
+  "license": "ISC"
+}

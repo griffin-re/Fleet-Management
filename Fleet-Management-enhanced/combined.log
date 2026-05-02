@@ -1,0 +1,265 @@
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:09:48.680Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:10:19.894Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:10:24.066Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:10:30.463Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:11:00.877Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:11:15.921Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:11:19.579Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:13:37.851Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:17:11.349Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:17:11.458Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:25:59.623Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:25:59.691Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:04.500Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:04.578Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:05.747Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:05.824Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:08.645Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:08.704Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:29.421Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:51.296Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:26:51.406Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:30:49.391Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:30:49.442Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:39:14.025Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:39:14.074Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:39:25.065Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:39:25.105Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:17.139Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:17.173Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:21.796Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:21.828Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:43.262Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:43.290Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:58.601Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:40:58.686Z"}
+{"error":"","level":"error","message":"Error creating tables","service":"fleet-management","timestamp":"2026-04-26T10:45:06.250Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:45:20.749Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:45:20.900Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:45:51.437Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:45:51.499Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:46:07.536Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:46:07.587Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","timestamp":"2026-04-26T10:48:03.046Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:48:26.544Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:48:26.594Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:48:34.587Z"}
+{"error":"","level":"error","message":"Failed to start server","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:48:34.592Z"}
+{"level":"warn","message":"Server running on port 5000 without full database setup","service":"fleet-management","timestamp":"2026-04-26T10:48:34.596Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:48:34.639Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:48:43.075Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:49:06.228Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-26T10:49:06.233Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-26T10:49:06.235Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:49:06.413Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:49:10.582Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-26T10:49:10.589Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-26T10:49:10.597Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:49:10.602Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:49:17.949Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:49:42.403Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-26T10:49:42.405Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-26T10:49:42.409Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:50:35.178Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:7:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)","timestamp":"2026-04-26T10:50:35.359Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:85:3)","timestamp":"2026-04-27T09:34:31.315Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-27T09:34:31.317Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-27T09:34:31.319Z"}
+{"error":"Redis connection is not ready. Cannot initialize queues.","level":"error","message":"Failed to initialize workers","service":"fleet-management","timestamp":"2026-04-27T09:34:31.320Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-27T09:34:31.320Z"}
+{"level":"error","message":"Unhandled Rejection","reason":"Redis connection is not ready. Cannot initialize queues.","service":"fleet-management","timestamp":"2026-04-27T09:34:31.321Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:85:3)","timestamp":"2026-04-27T09:35:22.368Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:26:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:85:3)","timestamp":"2026-04-27T09:36:01.545Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-27T09:36:01.547Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-27T09:36:01.549Z"}
+{"level":"info","message":"Server running on port 5001","service":"fleet-management","timestamp":"2026-04-27T09:36:01.549Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-27T09:36:06.138Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:31:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:90:3)","timestamp":"2026-04-27T09:36:30.054Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-27T09:36:30.056Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-27T09:36:30.057Z"}
+{"level":"info","message":"Server running on port 5002","service":"fleet-management","timestamp":"2026-04-27T09:36:30.058Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-27T09:36:34.646Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:31:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:90:3)","timestamp":"2026-04-27T09:37:46.238Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-27T09:37:46.240Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-27T09:37:46.242Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-27T09:37:46.242Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:31:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:90:3)","timestamp":"2026-04-27T09:47:26.157Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:31:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:90:3)","timestamp":"2026-04-27T09:47:56.943Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-27T09:47:56.950Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-27T09:47:56.956Z"}
+{"level":"info","message":"Server running on port 5001","service":"fleet-management","timestamp":"2026-04-27T09:47:56.958Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-28T11:14:32.274Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-28T11:15:37.349Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-28T11:16:23.529Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-28T11:16:55.171Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-28T11:17:47.475Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-28T11:19:48.951Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-28T11:19:48.994Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-28T11:19:48.995Z"}
+{"level":"info","message":"User registered: admin@test.com","service":"fleet-management","timestamp":"2026-04-28T11:28:22.832Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:31:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:95:3)","timestamp":"2026-04-28T13:29:37.214Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-28T13:29:37.216Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-28T13:29:37.217Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-28T13:29:37.218Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-28T13:29:44.867Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:31:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:95:3)","timestamp":"2026-04-28T13:38:55.652Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-28T13:38:55.654Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-28T13:38:55.655Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-28T13:38:55.656Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-28T13:39:05.050Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T00:59:55.208Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T00:59:55.217Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T00:59:55.220Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:09:18.379Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:09:18.540Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:09:18.760Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:09:18.761Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:11:57.043Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:15:57.639Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:15:57.672Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:15:57.673Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:24:49.266Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:24:49.291Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:24:49.364Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:24:49.368Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:24:49.370Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:24:49.464Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:12.702Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:12.764Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:12.809Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:12.846Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:25:12.851Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:12.963Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:42.595Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:42.714Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:25:42.717Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:42.811Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:42.852Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:43.005Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:25:46.423Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:27:56.433Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:27:56.479Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:27:56.481Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:27:56.893Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:27:56.924Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:28:08.005Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:31:38.711Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:31:38.751Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:31:38.752Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:34:20.015Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:34:20.121Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T01:34:20.330Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T01:34:20.339Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:34:20.393Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T01:34:20.543Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:16.701Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:16.904Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:12:16.906Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:17.354Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:17.699Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:17.797Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:40.867Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:40.969Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:12:40.973Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:41.084Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:41.140Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:12:41.369Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:13:24.535Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:13:24.681Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:13:24.682Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:20:41.836Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:21:14.327Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:21:14.486Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:21:14.532Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:21:14.643Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:21:14.647Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:21:14.725Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:21:15.066Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:23:28.861Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:23:28.906Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:23:28.908Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:18.383Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:18.420Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:18.423Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:18.527Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:18.567Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:27.890Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:28.067Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:28.075Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:28.362Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:47:28.426Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:14.537Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:14.567Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:50:14.568Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:47.625Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:47.665Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:47.902Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:47.915Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:50:48.078Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:54:28.723Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:54:28.785Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T02:54:28.891Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T02:54:28.894Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:54:28.881Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:54:29.295Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:54:29.379Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T02:55:10.205Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:00:03.627Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T03:00:03.635Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T03:00:03.636Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:00:30.494Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:00:31.255Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:00:31.320Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:00:31.357Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:00:31.485Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T03:03:15.026Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T03:03:15.033Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T03:03:15.033Z"}
+{"error":"","level":"error","message":"Database setup failed","service":"fleet-management","stack":"AggregateError [ECONNREFUSED]: \n    at /workspaces/Fleet-Management/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async createTables (/workspaces/Fleet-Management/src/utils/setupDb.js:12:5)\n    at async startServer (/workspaces/Fleet-Management/src/index.js:37:5)\n    at async main (/workspaces/Fleet-Management/src/index.js:101:3)","timestamp":"2026-04-29T04:20:57.023Z"}
+{"level":"warn","message":"Continuing without database setup - services may not be ready yet","service":"fleet-management","timestamp":"2026-04-29T04:20:57.026Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T04:20:57.027Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T04:20:57.027Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T10:38:36.986Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T10:38:37.018Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T10:38:37.019Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-29T10:39:57.607Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T10:40:12.920Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T10:40:12.948Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T10:40:12.950Z"}
+{"id":1,"level":"info","message":"Vehicle created","plate_number":"TEST-001","service":"fleet-management","timestamp":"2026-04-29T10:41:16.241Z"}
+{"body":{"lat":-1.2834,"lng":36.8172,"speed":45,"vehicle_id":1},"error":"\"vehicle_id\" must be a string","level":"warn","message":"GPS data validation failed","service":"fleet-management","timestamp":"2026-04-29T10:41:16.276Z"}
+{"body":{"lat":-1.2834,"lng":36.8172,"speed":45,"vehicle_id":1},"error":"\"vehicle_id\" must be a string","level":"warn","message":"GPS data validation failed","service":"fleet-management","timestamp":"2026-04-29T10:41:25.693Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-29T10:43:20.625Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T10:43:23.392Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T10:43:23.428Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T10:43:23.429Z"}
+{"error":"Cannot read properties of undefined (reading 'add')","level":"error","message":"Error queuing GPS data","service":"fleet-management","timestamp":"2026-04-29T10:43:36.049Z"}
+{"id":1,"level":"info","message":"Convoy created","name":"Nairobi to Mombasa","service":"fleet-management","timestamp":"2026-04-29T10:43:36.075Z"}
+{"error":"Cannot read properties of undefined (reading 'add')","level":"error","message":"Error queuing GPS data","service":"fleet-management","timestamp":"2026-04-29T10:43:52.458Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-29T10:45:35.054Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T10:45:37.777Z"}
+{"level":"info","message":"Workers initialized successfully","service":"fleet-management","timestamp":"2026-04-29T10:45:37.803Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T10:45:37.804Z"}
+{"lat":-1.2834,"level":"info","lng":36.8172,"message":"GPS data queued","service":"fleet-management","speed":45,"timestamp":"2026-04-29T10:45:48.103Z","vehicle_id":1}
+{"lat":-1.2834,"level":"info","lng":36.8172,"message":"Processing GPS data","service":"fleet-management","speed":45,"timestamp":"2026-04-29T10:45:48.108Z","vehicle_id":1}
+{"level":"info","message":"GPS data processed successfully","service":"fleet-management","timestamp":"2026-04-29T10:45:48.138Z","vehicle_id":1}
+{"jobId":"1","level":"info","message":"GPS job completed","service":"fleet-management","timestamp":"2026-04-29T10:45:48.141Z"}
+{"lat":-1.2834,"level":"info","lng":36.8172,"message":"GPS data queued","service":"fleet-management","speed":45,"timestamp":"2026-04-29T10:45:56.316Z","vehicle_id":1}
+{"lat":-1.2834,"level":"info","lng":36.8172,"message":"Processing GPS data","service":"fleet-management","speed":45,"timestamp":"2026-04-29T10:45:56.317Z","vehicle_id":1}
+{"level":"info","message":"GPS data processed successfully","service":"fleet-management","timestamp":"2026-04-29T10:45:56.328Z","vehicle_id":1}
+{"jobId":"2","level":"info","message":"GPS job completed","service":"fleet-management","timestamp":"2026-04-29T10:45:56.332Z"}
+{"id":2,"level":"info","message":"Convoy created","name":"Nairobi to Mombasa","service":"fleet-management","timestamp":"2026-04-29T10:45:56.338Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T10:50:21.478Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-29T11:30:30.723Z"}
+{"level":"info","message":"DATABASE_URL not configured; skipping database setup","service":"fleet-management","timestamp":"2026-04-29T11:30:39.514Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T11:30:39.517Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T11:30:39.518Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-29T11:31:17.396Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T11:31:27.617Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T11:31:27.622Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T11:31:27.623Z"}
+{"level":"info","message":"Received SIGTERM, shutting down gracefully","service":"fleet-management","timestamp":"2026-04-29T11:39:25.982Z"}
+{"level":"info","message":"Database tables created successfully","service":"fleet-management","timestamp":"2026-04-29T11:39:27.720Z"}
+{"email":"griffinonyari@gmail.com","id":3,"level":"info","message":"Default user seeded","service":"fleet-management","timestamp":"2026-04-29T11:39:27.819Z"}
+{"level":"info","message":"Worker initialization skipped because Redis is disabled.","service":"fleet-management","timestamp":"2026-04-29T11:39:27.821Z"}
+{"level":"info","message":"Server running on port 5000","service":"fleet-management","timestamp":"2026-04-29T11:39:27.821Z"}

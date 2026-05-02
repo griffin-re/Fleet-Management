@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fleet Management</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <script src="config.js"></script>
+  <div class="app-shell">
+    <header>
+      <h1>Fleet Management</h1>
+      <p>Login with your Fleet Management credentials</p>
+    </header>
+
+    <main>
+      <section id="auth-section" class="card">
+        <div id="feedback" class="feedback"></div>
+
+        <form id="login-form" class="form-card">
+          <h2>Sign In</h2>
+          <label for="login-email">Email</label>
+          <input id="login-email" type="email" required placeholder="you@example.com" />
+          <label for="login-password">Password</label>
+          <input id="login-password" type="password" required placeholder="Enter your password" />
+          <button type="submit">Login</button>
+          <p class="note">Use <strong>griffinonyari@gmail.com</strong> / <strong>GriffinDEV</strong></p>
+          <p class="toggle-line">Need an account? <button type="button" id="show-register">Register</button></p>
+        </form>
+
+        <form id="register-form" class="form-card hidden">
+          <h2>Create Account</h2>
+          <label for="register-email">Email</label>
+          <input id="register-email" type="email" required placeholder="you@example.com" />
+          <label for="register-password">Password</label>
+          <input id="register-password" type="password" required placeholder="Choose a password" />
+          <button type="submit">Register</button>
+          <p class="toggle-line">Already have an account? <button type="button" id="show-login">Login</button></p>
+        </form>
+      </section>
+
+      <section id="dashboard-section" class="card hidden">
+        <div class="dashboard-header">
+          <div>
+            <h2>Welcome, <span id="current-user"></span></h2>
+            <p>Authenticated and ready to manage vehicles.</p>
+          </div>
+          <button id="logout-button" class="secondary">Logout</button>
+        </div>
+        <div id="dashboard-feedback" class="feedback"></div>
+        <div class="dashboard-actions">
+          <button id="load-vehicles">Refresh Vehicle List</button>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr><th>ID</th><th>Plate</th><th>Make</th><th>Model</th><th>Year</th><th>Status</th></tr>
+            </thead>
+            <tbody id="vehicle-list"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
